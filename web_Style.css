@@ -1,0 +1,108 @@
+header{
+  padding-top: 1;
+ padding-bottom: 1;
+ text-align:center;
+
+}
+.mySlides {display:none;}
+h1{
+  font-family: Georgia, serif;
+  font-size: 33px;
+  letter-spacing: 2px;
+  word-spacing: 4.8px;
+  color: ##e21d2a;
+  font-weight: 400;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-align: center;
+}
+body{
+  background-color: #edf9f3;
+}
+.cn{
+  display: inline-block;
+}
+.park-hot-spot {
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+.park-hot-spot.hs-park-overview {
+  width: 45px;
+  height: 45px;
+  background-image: url(../arrow.png);
+  text-indent: -10000px;
+  animation: 3s ease-in-out infinite both anim;
+}
+.srh {
+  float: left;
+  width: 50%;
+}
+#panorama {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    ext-align: center;
+      height: 80%;
+}
+.custom-hotspot {
+    height: 50px;
+    width: 50px;
+    background: #f00;
+}
+div.custom-tooltip span {
+    visibility: hidden;
+    position: absolute;
+    border-radius: 3px;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    max-width: 200px;
+    padding: 5px 10px;
+    margin-left: -220px;
+    cursor: default;
+}
+div.custom-tooltip:hover span{
+    visibility: visible;
+}
+div.custom-tooltip:hover span:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #fff transparent transparent transparent;
+    bottom: -20px;
+    left: -10px;
+    margin: 0 50%;
+}
+table {
+    background: gray;
+    font-family: "Times New Roman", Times, serif;
+font-size: 18px;
+letter-spacing: 1.8px;
+word-spacing: 2px;
+color: #5D5D5D;
+font-weight: 700;
+text-decoration: none solid rgb(68, 68, 68);
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+text-align: left;
+}
+img {
+  border-radius: 8px;
+}
+td {
+  margin-left: 30%;
+width:4%;
+text-align: left;
+}
+tr:hover {
+          background-color: #E8F2FC;
+          cursor: pointer;
+        }
